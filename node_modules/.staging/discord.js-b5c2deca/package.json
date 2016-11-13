@@ -1,0 +1,45 @@
+{
+  "name": "discord.js",
+  "version": "10.0.1",
+  "description": "A powerful library for interacting with the Discord API",
+  "main": "./src/index",
+  "scripts": {
+    "test": "eslint src/ && node docs/generator/generator.js silent",
+    "docs": "node docs/generator/generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydrabolt/discord.js.git"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "bot",
+    "client",
+    "node",
+    "discordapp"
+  ],
+  "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hydrabolt/discord.js/issues"
+  },
+  "homepage": "https://github.com/hydrabolt/discord.js#readme",
+  "dependencies": {
+    "superagent": "^2.3.0",
+    "tweetnacl": "^0.14.3",
+    "ws": "^1.1.1"
+  },
+  "peerDependencies": {
+    "node-opus": "^0.2.1",
+    "opusscript": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.0",
+    "fs-extra": "^0.30.0",
+    "jsdoc-to-markdown": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
