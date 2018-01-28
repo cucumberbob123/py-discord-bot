@@ -25,4 +25,4 @@ async def on_message(message):
     if message.content.lower() in messages:
         await client.send_message(message.channel, messages[message.content])
 
-client.run('MjQ0ODcwMzY2NzA1NDgzNzc2.DU4rFg.ZmLOjnwhLtxdnWaVeQzH_KmhpqQ')
+client.run(token)
